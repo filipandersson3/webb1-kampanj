@@ -21,6 +21,10 @@ h2 {
     font-size: x-large;
 }
 
+li {
+    font-size: large;
+}
+
 img {
     max-width: 100%;
 }
