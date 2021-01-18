@@ -5,5 +5,18 @@ body {
     font-size: 100%;
     font-family: 'Hind Guntur', sans-serif;
     font-weight: 400;
-    color: #f9f9f9
+    color: #f9f9f9;
+    margin: auto 30%;
+}
+
+p {
+    font-size: large;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+h2 {
+    font-size: x-large;
 }
