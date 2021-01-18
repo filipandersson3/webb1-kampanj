@@ -15,10 +15,22 @@ p {
 
 h1 {
     font-size: xx-large;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 900;
+    color: #C1110E;
 }
 
 h2 {
     font-size: x-large;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 900;
+    color: #F7F052;
+}
+
+h3 {
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
+    color: #F7F052;
 }
 
 li {
@@ -31,6 +43,6 @@ img {
 
 @media (max-width: 660px){
 	body {
-		margin: auto 20px !important;
+		margin: auto 25px;
 	}
 }
