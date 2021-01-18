@@ -20,3 +20,13 @@ h1 {
 h2 {
     font-size: x-large;
 }
+
+img {
+    max-width: 100%;
+}
+
+@media (max-width: 660px){
+	body {
+		margin: auto 20px !important;
+	}
+}
