@@ -11,6 +11,8 @@ body {
 
 p {
     font-size: large;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 h1 {
@@ -18,6 +20,8 @@ h1 {
     font-family: 'Prompt', sans-serif;
     font-weight: 900;
     color: #C1110E;
+    margin-top: 80px;
+    margin-bottom: 30px;
 }
 
 h2 {
@@ -25,16 +29,22 @@ h2 {
     font-family: 'Prompt', sans-serif;
     font-weight: 900;
     color: #F7F052;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 h3 {
     font-family: 'Prompt', sans-serif;
     font-weight: 400;
     color: #F7F052;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 li {
     font-size: large;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 img {
