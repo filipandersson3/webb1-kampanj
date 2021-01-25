@@ -6,7 +6,11 @@ body {
     font-family: 'Hind Guntur', sans-serif;
     font-weight: 400;
     color: #f9f9f9;
-    margin: auto 30%;
+}
+
+.container {
+    width: 40%;
+    margin: 0 auto;
 }
 
 p {
@@ -35,7 +39,7 @@ h2 {
 
 h3 {
     font-family: 'Prompt', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     color: #F7F052;
     margin-top: 40px;
     margin-bottom: 20px;
@@ -51,8 +55,15 @@ img {
     max-width: 100%;
 }
 
+@media (max-width: 900px){
+	body {
+        width: 60%;
+		margin: 0 auto;
+	}
+}
 @media (max-width: 660px){
 	body {
-		margin: auto 25px;
+        width: 80%;
+		margin: 0 auto;
 	}
 }
