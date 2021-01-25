@@ -29,11 +29,16 @@ body {
 }
 
 .navitem {
-    padding: 0.5rem 15%;
+    padding: 0 auto;
     border-style: solid;
     margin: 0;
 }
 
+.navimg {
+    max-width: none;
+    line-height: 0;
+    padding: 0;
+}
 
 p {
     font-size: large;
