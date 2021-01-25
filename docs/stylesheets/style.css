@@ -6,11 +6,20 @@ body {
     font-family: 'Hind Guntur', sans-serif;
     font-weight: 400;
     color: #f9f9f9;
+    padding: 0;
+    margin: 0;
 }
 
 .container {
     width: 40%;
     margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 p {
