@@ -114,6 +114,6 @@ img {
     .navimg {
         max-width: 15%;
         padding-left: 5%;
-        content: url(/docs/img/logo2.png);
+        content: url(img/logo2.png);
     }
 }
