@@ -108,6 +108,12 @@ img {
 @media (max-width: 660px){
 	.container {
         width: 80%;
-		margin: 0 auto;
-	}
+        margin: 0 auto;
+        margin-top: 20%;
+    }
+    .navimg {
+        max-width: 15%;
+        padding-left: 5%;
+        content: url(/docs/img/logo2.png);
+    }
 }
