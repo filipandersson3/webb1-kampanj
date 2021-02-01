@@ -85,6 +85,16 @@ li {
     margin-bottom: 20px;
 }
 
+a {
+    color: #C1110E;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d31512;
+    text-decoration: none;
+}
+
 img {
     max-width: 100%;
 }
