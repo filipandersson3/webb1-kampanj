@@ -1,4 +1,34 @@
 <!DOCTYPE html>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+    // Load google charts
+    google.charts.load('current', {'packages':['corechart']});
+    google.charts.setOnLoadCallback(drawChart);
+    
+    // Draw the chart and set the chart values
+    function drawChart() {
+      var data = google.visualization.arrayToDataTable([
+      ['Task', 'Hours per Day'],
+      ['Bad', 40],
+      ['Okay or better', 60],
+    ]);
+    
+      // Optional; add a title and set the width and height of the chart
+      var options = {
+          'title':'What do students think about the food?',
+          titleTextStyle:{color:'#f9f9f9'},
+          'width':550, 
+          'height':400, 
+          colors:['#C1110E','#1b1b1b'],
+          backgroundColor: '#111111', 
+          legend: {textStyle:{color:'#f9f9f9'}}
+          }
+    
+      // Display the chart inside the <div> element with id="piechart"
+      var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+      chart.draw(data, options);
+    }
+</script>    
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -34,6 +64,8 @@
             <li>40% of students in Sweden think that the school lunch is either bad or really bad.</li>
             <li>The average cost of one day’s school lunch for one student is 10.47 Swedish Krona.</li>
         </ul>
+
+        <div id="piechart"></div>
 
         <img src="img/badfood2.png" alt="Example of bad food">
         <h2>We need to make sure that the school lunch is both nutritious and that 
