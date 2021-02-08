@@ -13,6 +13,7 @@ body {
 .container {
     width: 40%;
     margin: 0 auto;
+    margin-bottom: 10rem;
 }
 
 .header {
@@ -108,7 +109,8 @@ img {
 @media (max-width: 900px){
 	.container {
         width: 60%;
-		margin: 0 auto;
+        margin: 0 auto;
+        margin-bottom: 5rem;
     }
     .navimg {
         width: 100%;
@@ -121,6 +123,7 @@ img {
         width: 80%;
         margin: 0 auto;
         margin-top: 20%;
+        margin-bottom: 5rem;
     }
     .navimg {
         max-width: 15%;
@@ -129,5 +132,8 @@ img {
     }
     .navitem:last-child {
         margin-right: 10%;
+    }
+    ul {
+        padding-inline-start: 25px;
     }
 }
