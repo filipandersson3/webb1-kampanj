@@ -40,11 +40,15 @@ body {
     text-align: center;
     color: #C1110E;
 }
+.navitem:last-child {
+    margin-right: 40%;
+}
 
 .navimg {
     max-width: 25%;
     line-height: 0;
     padding: 0;
+    padding-left: 10%;
 }
 
 p {
@@ -104,6 +108,11 @@ img {
         width: 60%;
 		margin: 0 auto;
     }
+    .navimg {
+        width: 100%;
+        padding-left: 5%;
+        content: url(../img/logo.png);
+    }
 }
 @media (max-width: 660px){
 	.container {
@@ -114,6 +123,9 @@ img {
     .navimg {
         max-width: 15%;
         padding-left: 5%;
-        content: url(img/logo2.png);
+        content: url(../img/logo2.png);
+    }
+    .navitem:last-child {
+        margin-right: 10%;
     }
 }
