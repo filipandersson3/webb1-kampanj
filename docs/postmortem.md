@@ -13,7 +13,7 @@ Vi gjorde en planering för en kampanj om att fixa skolmaten i Sverige där vi k
 
 Sen tog vi det och gjorde en skiss i Figma där vi testade hur de olika färgerna passade och gjorde en struktur.
 
-Efter det skrev vi innehållet på Engelskan och började att jobba enskilt.
+Efter det skrev vi innehållet på engelskan och började att jobba enskilt.
 
 Jag började att strukturera texten i HTML och använde mig av olika listor, rubriker och olika tjocklek på texten för att göra den så lätt att läsa som möjligt.
 
@@ -29,8 +29,29 @@ Sen gjorde jag så att det finns länkar i navbaren så att den funkar.
 
 Gjorde också en kopia av index.html och gjorde en about us sida.
 
-Efter det var jag i stort sätt klar. Jag tog CSS och HTML och validerade det och sen använde jag också wave för att kolla kontrast och annat.
+Efter det var jag i stort sätt klar. Jag tog CSS och HTML och validerade det och sen använde jag också wave för att kolla och ändra kontrast (starka färger på svart bakgrund kan vibrera) och annat.
 Sen gjorde jag också ett användartest och ändrade lite saker som var otydliga.
+
+Användartest:
+
+Vad är viktigast att göra på sidan?
+1. Få information om kampanjen
+2. Navigera runt
+3. Få information om vilka som har står bakom kampanjen
+4. Läsa vanliga frågor
+5. Hitta fakta
+6. Hitta information om strejk
+1, 3, 4 och 6 ställde jag som frågor till testpersonen. Det gick bra att hitta information om kampanjen, vilka som står bakom den och vanliga frågor. Men jag märkte att det var svårt att hitta någon information om strejken så jag gjorde det lättare att göra det för att användare orkar inte läsa all text från topp till botten för att hitta vad de söker efter. Om användare inte kan hitta vad de letar efter så lämnar de bara istället. Därför gjorde jag information om strejken till en egen rubrik.
+
+Ändringar jag gjorde efter användartestet gjorde så att jag måste validera sidan igen. (borde validera efter användartest nästa gång)
+
+I index HTML var det en </p> utan någon <p> så jag fixade det.
+
+About us HTML hade inga problem.
+
+I CSS hade jag inte ändrat någonting så är redan validerad.
+
+Jag kollade sidan med Wave och såg att några alt texter till bilder inte var så beskrivande, så ändrade det. Dessutom skippade jag h2 och använde h3 efter en h1 som man inte borde göra för tillgänglighetens skull och bytte ut h3 mot h2.
 
 ## Positiva erfarenheter
 Det gick bra att göra sidan responsiv och det var bra att jag gjorde det eftersom så att jag inte försökte göra all responsivitet på slutet.
@@ -40,7 +61,7 @@ Planeringen i grupp hjälpte mycket så att alla fick ett ganska likadant result
 Jag gjorde en bra grundstruktur i HTML först så att jag behövde inte riktigt ändra något där sen. Därför använde jag den mesta tiden till att fixa CSS.
 
 Jag hittade några riktlinjer på internet från Google på hur man gör en dark-mode sida också. 
-Det hjälpte mig att se dom för att jag kunde då ändra några saker så att slutresultatet blev mycket bättre.
+Det hjälpte mig att se dom för att jag kunde då ändra några saker så att slutresultatet blev mycket bättre. T.ex. så ska element som ligger högre upp i dark-mode vara ljusare än andra och färger borde inte vara så starka mot en svart bakgrund.
 
 Det var en bra idé att göra ett användartest för att då kunde jag se sidan från någon som använder den för första gången.
 
@@ -71,6 +92,7 @@ Vad jag borde göra nästa gång:
 * Inte Google graphs.
 * Återanvänd kod från det här projektet för bilder i navbar.
 * Flera sätt att komma åt samma sak.
+* Borde validera efter användartest nästa gång
 
 Hur kan kampanjen utvecklas vidare?
 
