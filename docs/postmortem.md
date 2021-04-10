@@ -17,19 +17,19 @@ Efter det skrev vi innehållet på engelskan och började att jobba enskilt.
 
 Jag började att strukturera texten i HTML och använde mig av olika listor, rubriker och olika tjocklek på texten för att göra den så lätt att läsa som möjligt.
 
-Sen stoppade jag in rätt typsnitt, färger och bilder med CSS och började att göra det responsivt.
+Sen stoppade jag in rätt typsnitt, färger och bilder med CSS och började att göra det responsivt. (använde media queries, texten i mitten och margins på sidorna minskar. bilderna minskar också. )
 
 Sen gjorde jag en header med flex som jag stoppade in text i. Det gick bra, men jag ville ha en logotyp där också.
 
 Det gjorde så att texten hamnade längst upp på sidan och bilden ville inte passa in i rutan som jag hade.
 
-Då la jag till en responsiv version av logotypen, fixade så att bilden blev mindre och större som jag ville och gjorde så att allt har rätt spacing.
+Då la jag till en responsiv version av logotypen, fixade så att logotypen blev mindre och större som jag ville och gjorde så att allt har rätt spacing.
 
 Sen gjorde jag så att det finns länkar i navbaren så att den funkar.
 
 Gjorde också en kopia av index.html och gjorde en about us sida.
 
-Efter det var jag i stort sätt klar. Jag tog CSS och HTML och validerade det och sen använde jag också wave för att kolla och ändra kontrast (starka färger på svart bakgrund kan vibrera) och annat.
+Efter det var jag i stort sätt klar. Jag tog CSS och HTML och validerade det och fixade några mindre problem, sen använde jag också wave för att kolla och ändra kontrast (starka färger på svart bakgrund kan vibrera) och annat.
 Sen gjorde jag också ett användartest och ändrade lite saker som var otydliga.
 
 Användartest:
@@ -41,11 +41,12 @@ Vad är viktigast att göra på sidan?
 4. Läsa vanliga frågor
 5. Hitta fakta
 6. Hitta information om strejk
+
 1, 3, 4 och 6 ställde jag som frågor till testpersonen. Det gick bra att hitta information om kampanjen, vilka som står bakom den och vanliga frågor. Men jag märkte att det var svårt att hitta någon information om strejken så jag gjorde det lättare att göra det för att användare orkar inte läsa all text från topp till botten för att hitta vad de söker efter. Om användare inte kan hitta vad de letar efter så lämnar de bara istället. Därför gjorde jag information om strejken till en egen rubrik.
 
 Ändringar jag gjorde efter användartestet gjorde så att jag måste validera sidan igen. (borde validera efter användartest nästa gång)
 
-I index HTML var det en </p> utan någon <p> så jag fixade det.
+I index HTML var det en /p utan någon p så jag fixade det.
 
 About us HTML hade inga problem.
 
