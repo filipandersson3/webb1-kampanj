@@ -50,7 +50,7 @@ I index HTML var det en /p utan någon p så jag fixade det.
 
 About us HTML hade inga problem.
 
-I CSS hade jag inte ändrat någonting så är redan validerad.
+I CSS validatorn klagade den på att jag skulle jag lägga till attributen type="text/css" i link i HTML. Annars validerade den CSS utan problem.
 
 Jag kollade sidan med Wave och såg att några alt texter till bilder inte var så beskrivande, så ändrade det. Dessutom skippade jag h2 och använde h3 efter en h1 som man inte borde göra för tillgänglighetens skull och bytte ut h3 mot h2.
 
